@@ -1,0 +1,33 @@
+
+
+ movie-this space jam
+ Movie Title: Space Jam
+ Release Date: 15 Nov 1996
+ IMDB Ratinge: 6.4
+ Rotten Tomatoes Ratinge: 38%
+ Country: USA
+ Language: English
+ Plot: In a desperate attempt to win a basketball match and earn their freedom, the Looney Tunes seek the aid of retired basketball champion, Michael Jordan.
+ Actors: Michael Jordan, Wayne Knight, Theresa Randle, Manner Washington
+
+ concert-this drake
+ Artist Searched: drake
+ Venue Name: Accorhotels Arena
+ Venue Location: Paris, France
+ Event Date: 03/08/2019
+
+ spotify-this-song walk this way
+ Artists: Aerosmith
+ Song Title: Walk This Way
+ Preview Url: https://p.scdn.co/mp3-preview/f744fafea7f807dd79503249f4238a21393daf8f?cid=c1a292e36c4143369c4b95dec13cc91b
+ Album Title: Toys In The Attic
+
+ do-what-it-says
+ Movie Title: The Last King of Scotland
+ Release Date: 19 Jan 2007
+ IMDB Ratinge: 7.7
+ Rotten Tomatoes Ratinge: 87%
+ Country: UK, Germany
+ Language: English, French, German, Swahili
+ Plot: Based on the events of the brutal Ugandan dictator Idi Amin's regime as seen by his personal physician during the 1970s.
+ Actors: Forest Whitaker, James McAvoy, Kerry Washington, Gillian Anderson
