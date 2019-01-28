@@ -26,9 +26,9 @@ The user types in 'movie-this' and the name of a movie. Liri.js takes that infor
 The user types in 'spotify-this-song' and the name of a song. Liri.js takes that information and makes a call to the spotify api. The output displays the artist name, song name, preview link (if availabe), and the album that the song is from. If the user does not initially specify a song, then 'The Sign' by Ace of Spades is displayed.
 
 ## log.txt file
-![log.text](logSS.png)
+![log.txt](logSS.png)
 Once the user inputs the info that they are looking for, that output is then appended to a 'log.txt' file.
 
 ## random.txt file
-![random.text](randomSS.png)
+![random.txt](randomSS.png)
 This file is used for the liri.js file to read and execute the action written inside.
