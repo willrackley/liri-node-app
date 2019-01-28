@@ -12,33 +12,15 @@ var userQuestion = process.argv.slice(3);
 var outPutForLog = [];
 var displayForLog;
 
-switch(action){
-    case "spotify-this-song": 
-        spotifySearch();
-        break;
-    case "concert-this": 
-        concertSearch();
-        break;
-    case "movie-this": 
-        if(process.argv.length === 3){
-            userQuestion = "Mr. Nobody."
-            movieSearch();
-        } else {
-        movieSearch();
-        }
-        break;
-    case "do-what-it-says":
-        doWhatItSays();
-        break;
+//=================FUNCTIONS==============//
 
-
-}
-
+//function to search the spotify api. store the response info in an array to append to the log.txt file
 function spotifySearch(){
     outPutForLog = [];
     outPutForLog.unshift(outputText);
     outPutForLog.unshift("\n");
 
+    //if there is no song typed into the CLI then 'The Sign' by Ace of Base will be searched
     if(process.argv.length === 3){
         userQuestion = "The Sign"
         spotify.search({ type: 'track', query: userQuestion ,limit: 10 })
@@ -94,6 +76,7 @@ function spotifySearch(){
 }
 }
 
+//this function searches the bands in town api
 function concertSearch(){
     outPutForLog = [];
     outPutForLog.unshift(outputText);
@@ -123,6 +106,7 @@ function concertSearch(){
 );
 }
 
+//this function searches ombd api
 function movieSearch(){
     outPutForLog = [];
     outPutForLog.unshift(outputText);
@@ -164,6 +148,7 @@ function movieSearch(){
     );
 }
 
+// this function reads the random.txt file and executes an api call
 function doWhatItSays(){
     fs.readFile("random.txt", "utf8", function(error, data) {
         if (error) {
@@ -195,6 +180,7 @@ function doWhatItSays(){
     }); 
 }
 
+//this function appends CLI input and output to the log.txt file
 function appendOutput(){
     fs.appendFile("log.txt", displayForLog, function(err) {
 
@@ -209,4 +195,27 @@ function appendOutput(){
         }
       
       });
+}
+
+//switch statement for the liri logic
+switch(action){
+    case "spotify-this-song": 
+        spotifySearch();
+        break;
+    case "concert-this": 
+        concertSearch();
+        break;
+    case "movie-this": 
+        if(process.argv.length === 3){
+            userQuestion = "Mr. Nobody."
+            movieSearch();
+        } else {
+        movieSearch();
+        }
+        break;
+    case "do-what-it-says":
+        doWhatItSays();
+        break;
+
+
 }
