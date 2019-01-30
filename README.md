@@ -1,13 +1,12 @@
 # liri-node-app
 The Liri Node App is a command line node app that takes in parameters and gives you back data. This app searches Spotify for songs,Bands in Town for concerts, and OMDB for movies. The app also reads text from a file (random.txt)to run commands and pushes user output to a log.text file.
 
-
-[link to liri app screenshots and video demo!](https://willrackley.github.io/liri-node-app/)
-
 ## How It Works
 In the command line, the user types in one of 4 commands: do-what-it-says, concert-this, movie-this, or spotify-this-song. All the commands other than the 'do-what-it-says' command are able to take in another command following the concert-this, movie-this, or spotify-this-song command, where the user can search the name of a song, movie, or band/artist. Each command is explained in detail below.
 
 ## CLI Screenshoots
+[link to liri app screenshots and video demo!](https://willrackley.github.io/liri-node-app/)
+
 
 ## do-what-it-says
 ![do-what-it-says](doWhatItSays.png) 
