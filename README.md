@@ -11,7 +11,7 @@ In the command line, the user types in one of 4 commands: do-what-it-says, conce
 
 ## do-what-it-says
 
-* The user types in 'do-what-it-says' and the liri.js file reads the random.text file and runs that in the command line.
+The user types in 'do-what-it-says' and the liri.js file reads the random.text file and runs that in the command line.
 
 ![do-what-it-says](doWhatItSays.png) 
 ![random.txt](randomSS.png)
@@ -20,15 +20,15 @@ In the command line, the user types in one of 4 commands: do-what-it-says, conce
 
 ## concert-this
 
-* The user types in 'concert-this' and the name of a band/artist and liri.js takes that information and makes a call to the bands in town api. The output displays the name of the venue, venue location, and date of the event.
+The user types in 'concert-this' and the name of a band/artist and liri.js takes that information and makes a call to the bands in town api. The output displays the name of the venue, venue location, and date of the event.
 
-![concert-this](concertThis.png) 
+![concert-this](concertThis.gif) 
 
 
 
 ## movie-this
 
-* The user types in 'movie-this' and the name of a movie. Liri.js takes that information and makes a call to the omdb api. The output displays the title of the movie, year, imdb rating, rotten tomatoes rating, country where it was produces, language of the movie, plot, and the actors in the movie.
+The user types in 'movie-this' and the name of a movie. Liri.js takes that information and makes a call to the omdb api. The output displays the title of the movie, year, imdb rating, rotten tomatoes rating, country where it was produces, language of the movie, plot, and the actors in the movie.
 
 ![movie-this](movieThis.png) 
 
@@ -37,7 +37,7 @@ In the command line, the user types in one of 4 commands: do-what-it-says, conce
 
 ## spotify-this-song
 
-* The user types in 'spotify-this-song' and the name of a song. Liri.js takes that information and makes a call to the spotify api. The output displays the artist name, song name, preview link (if availabe), and the album that the song is from. If the user does not initially specify a song, then 'The Sign' by Ace of Spades is displayed.
+The user types in 'spotify-this-song' and the name of a song. Liri.js takes that information and makes a call to the spotify api. The output displays the artist name, song name, preview link (if availabe), and the album that the song is from. If the user does not initially specify a song, then 'The Sign' by Ace of Spades is displayed.
 
 ![spotify-this-song](spotifyThis.png)
 
@@ -46,7 +46,7 @@ In the command line, the user types in one of 4 commands: do-what-it-says, conce
 
 ## log.txt file
 
-* Once the user inputs the info that they are looking for, that output is then appended to a 'log.txt' file.
+Once the user inputs the info that they are looking for, that output is then appended to a 'log.txt' file.
 In this case, the user utilized all of the commands.
 
 ![log.txt](logSS.png)
