@@ -9,6 +9,9 @@ In the command line, the user types in one of 4 commands: do-what-it-says, conce
 ## CLI Screenshoots
 [link to liri app screenshots and video demo!](https://willrackley.github.io/liri-node-app/)
 
+## Live Demo
+![live Demo](liveDemo.mp4)
+
 
 ## do-what-it-says
 ![do-what-it-says](doWhatItSays.png) 
